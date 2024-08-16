@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-theme='light'] {
+    --bg-color: #b497d3;
+    --text-color: #000000;
+    --sectext-color:rgb(33, 33, 34);
+
+    --apitopnav-bg:rgb(130, 225, 249);
+    --apidownnav-bg:rgb(232, 161, 248);
+
+    --apibg-color:rgb(240, 200, 240);
+    --apisecbg-color:rgb(234, 173, 248);
+    --apiheading-color:rgb(67, 3, 81);
+
+    --tablehead:rgb(107, 4, 130);
+    --tablebg:rgb(240, 200, 240);
+
+    /* Add other light mode variables */
+  }
+  
+  [data-theme='dark'] {
+    --bg-color: rgb(50,7,85);
+    --text-color: #ffffff;
+    --sectext-color:rgba(108, 111, 117, 0.905);
+
+    --apitopnav-bg:rgb(99,102,241);
+    --apidownnav-bg:rgb(30,41,59);
+
+    --apibg-color:rgb(22,31,48);
+    --apisecbg-color:rgb(30,41,59);
+    --apiheading-color:rgb(165,180,252);
+
+    --tablehead:rgb(99,102,241);
+    --tablebg:rgb(31,41,55);
+    /* Add other dark mode variables */
+  }
+  
+  .bg-color {
+    background-color: var(--bg-color);
+  }
+  
+  .text-color {
+    color: var(--text-color);
+  }
+
+  .sectext-color {
+    color: var(--sectext-color);
+  }
+
+  .apibg-color {
+    background-color: var(--apibg-color);
+  }
+
+  .apisecbg-color {
+    background-color: var(--apisecbg-color);
+  }
+
+  .apitopnav-bg {
+    background-color: var(--apitopnav-bg);
+  }
+
+  .apidownnav-bg {
+    background-color: var(--apidownnav-bg);
+  }
+
+  .apiheading-color {
+    color: var(--apiheading-color);
+  }
+
+  .tablehead {
+    background-color: var(--tablehead);
+  }
+
+  .tablebg {
+    background-color: var(--tablebg);
+  }
